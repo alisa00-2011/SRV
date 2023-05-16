@@ -6,8 +6,8 @@ main: main.o
 debug: debug.o
 		gcc debug.o -o lab4_debug
 		
-debug.o: main.c
-		gcc -g -c main.c -o debug.o
+debug.o: lab4.c
+		gcc -g -c lab4.c -o debug.o
 		
 main.o:
 		gcc -c lab4.c
